@@ -1,5 +1,68 @@
+head{  
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  
+}
+
 body {
   width: 100%;
   height: 100%;
   margin: 0;
+}
+
+
+#featured-property {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+  
+}
+
+.center a {
+  padding: 10px;
+  background-color: grey;
+}
+
+.details{
+  background-color: crimson; 
+  color: black;
+  float: left;
+  width: 25%;
+}
+
+
+.details div{
+    padding: 16px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    transition: background-color 0.4s;
+    float: left;
+}
+.details div:hover{
+  background-color: white;
+}
+
+div{  
+  background-color: crimson; 
+  color: black;
+  float: left;
+  text-align: center;
+  width: 25%;
+  transition:background-color 0.4s;
+  border-top: 2px solid black;
+  
+}
+div:hover{
+  background-color: white;
 }
