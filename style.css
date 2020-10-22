@@ -3,3 +3,26 @@ body {
   height: 100%;
   margin: 0;
 }
+
+header {
+  text-align: center;
+}
+
+header > nav > a{
+  background: grey;
+  padding: 10px
+}
+
+#featured-property p {
+  text-align: center;
+
+}
+
+section {
+  margin: auto;
+  text-align: center;
+}
+
+#details{
+  background: red
+}
